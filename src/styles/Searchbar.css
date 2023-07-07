@@ -1,0 +1,61 @@
+.searchbar {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4em;
+}
+.localidad {
+    margin-right: 2em;
+    font-size: 1.4em;
+    font-weight: 800;
+    color: rgb(220,220,220)
+}
+.input-city {
+    background-color: rgb(220,220,220);
+    height: 1em;
+    border: 1px solid rgb(200,200,200);
+    border-radius: 0.3em;
+    margin-right: 2em;
+    padding: 1em;
+    font-size: 1em;
+    font-style: italic;
+}
+.btn-buscar {
+    background-color: rgb(20,150,20);
+    padding: 1em;
+    border: 1px solid rgb(200,200,200);
+    border-radius: 0.3em;
+    font-size: 1em;
+    font-weight: 700;
+    color: rgb(100,100,100);
+}
+
+.btn-buscar:hover {
+    background-color: rgb(20,100,20);
+    transition: 0.5s;
+    color: rgb(200,200,200)
+}
+@media (max-width: 767px) {
+    .searchbar {
+        width: 100%;
+        height: 15em;
+    }
+    .form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .localidad {
+        text-align: center;
+        margin: 0em 0em 1em 0em;
+    }
+    .input-city {
+        text-align: center;
+        width: 90%;
+        margin: 0em 0em 2em 0em;
+    }
+    .btn-buscar {
+        width: 97%;
+    }
+}
